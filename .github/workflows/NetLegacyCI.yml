@@ -9,4 +9,8 @@ jobs:
         run: |
           cd C:\Program Files (x86)
           dir
+          md NuevaCarpeta
+          dir
+          cd NuevaCarpeta
+          dir
         shell: cmd
