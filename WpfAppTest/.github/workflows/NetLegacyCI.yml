@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  list-c-drive-folders:
+    runs-on: windows-2022
+    steps:
+      - name: List folders in C:\
+        run: dir /ad C:\Program Files (x86)
+        shell: cmd
