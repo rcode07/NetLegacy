@@ -1,0 +1,72 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Paquetes NuGet
+packages/
+*.nupkg
+# Si usas NuGet Package Restore, puedes omitir la carpeta packages
+# !packages/build/
+
+# Archivos de publicación
+*.publish.xml
+
+# Archivos de configuración de usuario
+*.userprefs
+
+# Archivos de depuración
+*.pdb
+*.cache
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de base de datos locales
+*.mdf
+*.ldf
+
+# Archivos de configuración de IIS Express
+*.vspscc
+*.vssscc
+
+# Archivos de Resharper y Rider
+_ReSharper*/
+*.DotSettings.user
+
+# Archivos de Test
+TestResults/
+*.trx
+
+# Archivos de configuración de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de WPF generados
+*.g.i.cs
+*.g.cs
+*.i.cs
+
+# Archivos de configuración de usuario de Windows
+*.dbmdl
+
+# Archivos de configuración de Azure
+*.azurePubxml
+*.publishsettings
+
+# Archivos de configuración de MSBuild
+*.msbuilds
+
+# Archivos de configuración de StyleCop
+StyleCopReport.xml
