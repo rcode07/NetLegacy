@@ -5,6 +5,8 @@ jobs:
   list-c-drive-folders:
     runs-on: windows-2022
     steps:
-      - name: List folders in C:\
-        run: dir /ad C:\
+      - name: List forlder.
+        run: |
+          cd "C:\Program Files (x86)"
+          dir
         shell: cmd
