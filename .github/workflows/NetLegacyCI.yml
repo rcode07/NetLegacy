@@ -5,13 +5,14 @@ jobs:
   list-c-drive-folders:
     runs-on: windows-2022
     steps:
-      - name: Install .NET Core
-        uses: actions/setup-dotnet@v4
-        with:
-            dotnet-version: '8.0.x'
+      # - name: Install .NET Core
+      #   uses: actions/setup-dotnet@v4
+      #   with:
+      #       dotnet-version: '8.0.x'
 
       - name: List forlder.
         run: |
           cd C:\Program Files (x86)
+          md "Reference Assemblies\Microsoft\Framework\.NETFramework"
           dir
         shell: cmd
